@@ -43,7 +43,7 @@ const Hero = () => {
             Desde 1977 no mercado
           </motion.span>
 
-          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-primary-foreground leading-tight mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-tight mb-6">
             Ajudando a{" "}
             <span className="text-gradient-accent">concretizar</span>{" "}
             seus sonhos
