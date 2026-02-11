@@ -7,6 +7,8 @@ import { Building2, Home, Tractor, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
+const basePath = process.env.NODE_ENV === "production" ? "/next-js" : "";
+
 const services = [
   {
     icon: Building2,
@@ -51,7 +53,7 @@ const ServiceCard = ({
     >
       <div className="relative h-56 overflow-hidden">
         <Image
-          src={service.image}
+          src={`${basePath}${service.image}`}
           alt={service.title}
           fill
           className="object-cover group-hover:scale-110 transition-transform duration-700"
