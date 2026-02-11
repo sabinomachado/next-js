@@ -45,7 +45,8 @@ const About = () => {
 
             <a
               href="#contato"
-              className="inline-block bg-accent text-accent-foreground font-bold text-base px-8 py-4 rounded-lg hover:brightness-110 transition-all duration-200 shadow-accent"
+              className="inline-block font-bold text-base px-8 py-4 rounded-lg hover:brightness-110 transition-all duration-200 shadow-accent"
+              style={{ backgroundColor: 'hsl(38, 92%, 55%)', color: 'hsl(215, 60%, 12%)' }}
             >
               Entre em Contato
             </a>
