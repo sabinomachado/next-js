@@ -49,7 +49,7 @@ const Hero = () => {
             seus sonhos
           </h1>
 
-          <p className="text-lg md:text-xl text-primary-foreground/70 max-w-xl mx-auto mb-10 font-body">
+          <p className="text-lg md:text-xl text-white max-w-xl mx-auto mb-10 font-body">
             Pré-moldados de concreto com qualidade, tradição e entrega rápida
             em todo o Sul Fluminense.
           </p>
@@ -79,13 +79,13 @@ const Hero = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5, duration: 0.8 }}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2"
+          className="absolute bottom-2 left-1/2 -translate-x-1/2"
         >
           <motion.div
             animate={{ y: [0, 10, 0] }}
             transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
           >
-            <ArrowDown className="text-primary-foreground/50" size={28} />
+            <ArrowDown className="text-white" size={28} />
           </motion.div>
         </motion.div>
       </div>
