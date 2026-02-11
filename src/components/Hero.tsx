@@ -79,7 +79,7 @@ const Hero = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5, duration: 0.8 }}
-          className="fixed bottom-4 left-1/2 -translate-x-1/2 z-10"
+          className="fixed bottom-8 left-1/2 -translate-x-1/2 z-10"
         >
           <motion.div
             animate={{ y: [0, 10, 0] }}
