@@ -13,7 +13,7 @@ const Hero = () => {
       {/* Background image */}
       <div className="absolute inset-0">
         <Image
-          src="/hero-construction.jpg"
+          src="/next-js/hero-construction.jpg"
           alt="Prelaje - Construção e pré-moldados"
           fill
           className="object-cover"

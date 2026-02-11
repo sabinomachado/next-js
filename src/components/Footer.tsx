@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
             <Image
-              src="/logo-prelaje.png"
+              src="/next-js/logo-prelaje.png"
               alt="Prelaje Logo"
               width={40}
               height={40}

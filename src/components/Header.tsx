@@ -58,7 +58,7 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between py-4 px-4 lg:px-8">
         <Link href="/" className="flex items-center gap-3">
           <Image 
-            src="/logo-prelaje.png" 
+            src="/next-js/logo-prelaje.png"
             alt="Prelaje Logo" 
             width={56} 
             height={56}
