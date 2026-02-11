@@ -50,7 +50,9 @@ const Header = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300`}
         style={{
-          background: isScrolled ? 'linear-gradient(180deg, hsl(215, 60%, 12%) 0%, hsl(215, 50%, 18%) 100%)' : 'transparent',
+          background: isScrolled
+            ? 'hsl(38 92% 55% / 0.5)'
+            : 'hsl(38 92% 55% / 0.1)',
           backdropFilter: isScrolled ? 'blur(12px)' : 'none',
           boxShadow: isScrolled ? '0 4px 24px -4px hsla(215, 60%, 18%, 0.08)' : 'none'
         }}

@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   output: "export",
 
   basePath: "/next-js",
-  assetPrefix: "/next-js/",
+  assetPrefix: "/next-js",
 
   images: {
     unoptimized: true
