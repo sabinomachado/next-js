@@ -51,8 +51,8 @@ const Header = () => {
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300`}
         style={{
           background: isScrolled
-            ? 'hsl(38 92% 55% / 0.5)'
-            : 'hsl(38 92% 55% / 0.1)',
+            ? 'hsl(38 92% 55% / 0.6)'
+            : 'hsl(38 92% 55% / 0.3)',
           backdropFilter: isScrolled ? 'blur(12px)' : 'none',
           boxShadow: isScrolled ? '0 4px 24px -4px hsla(215, 60%, 18%, 0.08)' : 'none'
         }}
@@ -75,7 +75,7 @@ const Header = () => {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-primary-foreground/80 hover:text-accent font-medium text-sm tracking-wide uppercase transition-colors duration-200"
+                className="text-white/80 hover:text-white font-medium text-sm tracking-wide uppercase transition-colors duration-200"
               >
                 {link.label}
               </Link>
@@ -83,7 +83,7 @@ const Header = () => {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-primary-foreground/80 hover:text-accent font-medium text-sm tracking-wide uppercase transition-colors duration-200"
+                className="text-white/80 hover:text-white font-medium text-sm tracking-wide uppercase transition-colors"
               >
                 {link.label}
               </a>
